@@ -32,10 +32,17 @@
     background: red;
     height: calc(100vh - 400px);
     margin: 2rem;
+    overflow: auto;
 }
 
 .sidebar-content-2 {
     background: cadetblue;
     padding: 4rem;
+    margin: 2rem;
+}
+
+.sidebar-inner {
+    background: rgb(255, 243, 243);
+    height: 400px;
     margin: 2rem;
 }
