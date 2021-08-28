@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  height: 80vh;
+}
+
+.content--1 {
+  background: orange;
+}
+
+.content--2 {
+  background: orchid;
+}
+
+.content--3 {
+  background: goldenrod;
+}
+
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  background: #995333;
+  width: 400px;
+}
+
+.sidebar-content-1 {
+  background: red;
+  height: calc(100vh - 400px);
+  margin: 2rem;
+}
+
+.sidebar-content-2 {
+  background: cadetblue;
+  padding: 4rem;
+  margin: 2rem;
+}
+/*# sourceMappingURL=main.css.map */
